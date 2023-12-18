@@ -1,3 +1,5 @@
+import Like from "./Like"
+
 const Homework = () => {
   return (
     <>
@@ -93,6 +95,7 @@ const Homework = () => {
           </ul>
         </div>
       </div>
+      <Like/>
       <div className="main-body">
         <div className="card" style={{ width: "18rem" }}>
         <iframe style={{borderRadius: 12}} src="https://open.spotify.com/embed/track/11pEKMLmavDu8fxOB5QjbQ?utm_source=generator&theme=0" width="100%" height={352} frameBorder={0} allowFullScreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" />
@@ -111,6 +114,7 @@ const Homework = () => {
           </ul>
         </div>
       </div>
+      <Like/>
       <div className="main-body">
         <div className="card" style={{ width: "18rem" }}>
         <iframe style={{borderRadius: 12}} src="https://open.spotify.com/embed/track/20bJBbPapGQ4bqs0YcA9xY?utm_source=generator&theme=0" width="100%" height={352} frameBorder={0} allowFullScreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" />
@@ -129,6 +133,7 @@ const Homework = () => {
           </div>
         </div>
       </div>
+      <Like/>
     </>
   );
 };
