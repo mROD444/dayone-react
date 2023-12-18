@@ -4,8 +4,8 @@ import Like from "./Like"
 const App = () => {
   return (
     <>
-      <Homework/>
-      <Like/>
+    <Homework/>
+    <Like/>
     </>
     
   )
